@@ -27,3 +27,7 @@ const output = document.getElementById("Ptag")
 input.addEventListener("input", ()=>{
     output.textContent = input.value
 })
+const newVar = document.createElement("h1")
+newVar.textContent = "New Paragraph"
+document.body.appendChild(newVar)
+//newVar.remove()
